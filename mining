@@ -1,10 +1,8 @@
 turtle.refuel()
 while turtle.detectDown() do
-    turtle.dig()
-    turtle.digDown()
-    turtle.down()
-    turtle.forward()
-    turtle.turnRight()
+    for i = 1, 4 do
+        turtle.dig()
+        turtle.turnRight()
     turtle.digDown()
     turtle.down()
 end
