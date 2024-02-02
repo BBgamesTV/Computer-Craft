@@ -3,6 +3,7 @@ while turtle.detectDown() do
     for i = 1, 4 do
         turtle.dig()
         turtle.turnRight()
+    end
     turtle.digDown()
     turtle.down()
 end
