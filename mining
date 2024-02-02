@@ -3,10 +3,8 @@ while turtle.detectDown() do
     turtle.dig()
     turtle.digDown()
     turtle.down()
+    turtle.forward()
+    turtle.turnRight()
     turtle.digDown()
     turtle.down()
-
-
-
-
 end
